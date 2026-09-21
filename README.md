@@ -18,42 +18,42 @@ Exploratory Data Analysis and cleaning of job posting data using python and pand
 - Practice real-world data analysis using Python and Pandas
 
  ## Tools & Technologies
-Python
-Pandas
-NumPy
-Matplotlib
-Jupyter Notebook
-Git & GitHub
+- Python
+- Pandas
+- NumPy
+- Matplotlib
+- Jupyter Notebook
+- Git & GitHub
 
- ##Data Cleaning
-The dataset was prepared before analysis by performing several data-cleaning steps, including:
+ ## Data Cleaning
+- The dataset was prepared before analysis by performing several data-cleaning steps, including:
 
-Cleaning column names
-Handling missing values
-Removing unnecessary spaces from text values
-Standardizing categorical data
-Checking data types
-Creating analysis-ready columns where required
+- Cleaning column names
+- Handling missing values
+- Removing unnecessary spaces from text values
+- Standardizing categorical data
+- Checking data types
+- Creating analysis-ready columns where required
 
- ##Exploratory Data Analysis
+ ## Exploratory Data Analysis
 
 The analysis explores questions such as:
-What are the most common job types?
-Which countries have the most job postings?
-How are job types distributed across countries?
-Which companies or industries have the highest number of postings?
-What patterns can be observed in job locations?
-What other trends can be identified from the available job-posting data?
+- What are the most common job types?
+- Which countries have the most job postings?
+- How are job types distributed across countries?
+- Which companies or industries have the highest number of postings?
+- What patterns can be observed in job locations?
+- What other trends can be identified from the available job-posting data?
 
-##Example Analysis
+## Example Analysis
 A cross-tabulation was used to examine the relationship between country and job type:
 
-pd.crosstab(
-    analysis_df["search_country"],
-    analysis_df["job_type"]
+- pd.crosstab(
+  - analysis_df["search_country"],
+  -  analysis_df["job_type"]
 )
 
-This helps identify how different types of jobs are distributed across countries.
+- This helps identify how different types of jobs are distributed across countries.
 
  ## Key Insights
 
@@ -65,23 +65,23 @@ This helps identify how different types of jobs are distributed across countries
 - Most frequently represented companies or industries
 - Patterns in job locations
 
- ##Project Structure
-job-postings-analysis/
-│
-├── job_market_analysis.ipynb
-├── README.md
-└── .gitignore
+ ## Project Structure
+- job-postings-analysis/
+- │
+- ├── job_market_analysis.ipynb
+- ├── README.md
+- └── .gitignore
 
- ##Future Improvements
-Possible future improvements include:
-Adding more visualizations
-Performing deeper analysis of job skills
-Analyzing salary information if available
-Comparing remote and on-site opportunities
-Creating an interactive dashboard using Power BI
-Applying statistical or machine-learning techniques to the dataset
+ ## Future Improvements
+- Possible future improvements include:
+- Adding more visualizations
+- Performing deeper analysis of job skills
+- Analyzing salary information if available
+- Comparing remote and on-site opportunities
+- Creating an interactive dashboard using Power BI
+- Applying statistical or machine-learning techniques to the dataset
 
- ##Author
-Aqsa Suleman
-MPhil Data Science Student
-Interested in Data Science, Machine Learning, and AI
+ ## Author
+- Aqsa Suleman
+- MPhil Data Science Student
+- Interested in Data Science, Machine Learning, and AI
